@@ -6,7 +6,7 @@
     <title>Trần Hồ Hoàng Cường | Portfolio</title>
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -15,27 +15,24 @@
       <div class="container">
         <h1 class="logo">Hoàng Cường</h1>
         <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Skill</a></li>
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="home">
       <div class="right-side">
-        <h1>
-          Hello, I am <br />
-          Trần Hồ Hoàng Cường
-        </h1>
+        <h1>Hello, I am <br />Trần Hồ Hoàng Cường</h1>
         <p>I am a <span class="auto-type"></span></p>
         <div class="botton">
-          <a href="#"><i class="fa-solid fa-file"></i> Resume</a>
-          <a href="#"><i class="fa-brands fa-github"></i> GitHub</a>
-          <a href="#"><i class="fa-solid fa-envelope"></i> Email</a>
-          <a href="#"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+          <a href="./assest/HoangCuongCV.pdf"><i class="fa-solid fa-file"></i> Resume</a>
+          <a href="https://github.com/cuong75201"><i class="fa-brands fa-github"></i> GitHub</a>
+          <a href="mailto:cuong75201@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+          <a href="https://www.linkedin.com/in/tr%C3%BAc-g%E1%BA%A5u-bb54b5324/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
         </div>
       </div>
       <div class="left-side">
@@ -46,23 +43,22 @@
       </div>
     </section>
 
-    <section class="about">
+    <section class="about" id="about">
       <div class="about-container">
         <img
           src="./assest/image/truong-dai-hoc-sai-gon-1.jpg"
           alt=""
-          class="big-img"
+          class="big-img reveal"
         />
-
-        <div class="about-title">
+        <div class="about-title reveal reveal-delay-1">
           <h2>Who I am and What I do</h2>
         </div>
         <img
           src="./assest/image/388ce903-2152-4a39-9317-eb548c3ba2f4.jpeg"
           alt=""
-          class="smail-img"
+          class="smail-img reveal reveal-delay-1"
         />
-        <div class="about-content">
+        <div class="about-content reveal reveal-delay-2">
           <p>My name is Trần Hồ Hoàng Cường.</p>
           <p>
             I am a third-year Software Engineering student at Sai Gon
@@ -75,117 +71,283 @@
         </div>
       </div>
       <div class="stats">
-        <div class="stat">
+        <div class="stat reveal reveal-delay-1">
           <h3>5+</h3>
           <p>Projects</p>
         </div>
-
-        <div class="stat">
+        <div class="stat reveal reveal-delay-2">
           <h3>3+</h3>
           <p>Years Learning</p>
         </div>
-
-        <div class="stat">
+        <div class="stat reveal reveal-delay-3">
           <h3>10+</h3>
           <p>Technologies</p>
         </div>
       </div>
     </section>
 
-    <section class="skills">
-      <div class="section-header">
-        <h2>My Skills</h2>
-      </div>
-
+    <section class="skills" id="skills">
+      <div class="section-header reveal"><h2>My Skills</h2></div>
       <div class="skills-container">
-        <div class="skill">
+        <div class="skill reveal reveal-delay-1">
           <div class="skill-title">
             <i class="fa-solid fa-code"></i>
             <h3>Front-End</h3>
           </div>
           <div class="skill-content">
-            <span>React</span>
-            <span>Next.js</span>
+            <span>React</span><span>Next.js</span> <span>Bootstrap</span>
+            <span>Tailwindcss</span>
           </div>
         </div>
-        <div class="skill">
+        <div class="skill reveal reveal-delay-2">
           <div class="skill-title">
             <i class="fa-solid fa-server"></i>
             <h3>Back-End</h3>
           </div>
           <div class="skill-content">
-            <span>Node.js</span>
-            <span>Spring Boot</span>
+            <span>Node.js</span><span>Spring Boot</span>
           </div>
         </div>
-        <div class="skill">
+        <div class="skill reveal reveal-delay-3">
           <div class="skill-title">
             <i class="fa-solid fa-terminal"></i>
             <h3>Languages</h3>
           </div>
           <div class="skill-content">
-            <span>Java</span>
-            <span>JavaScript</span>
-            <span>TypeScript</span>
-            <span>HTML/CSS</span>
+            <span>Java</span><span>JavaScript</span><span>TypeScript</span
+            ><span>HTML/CSS</span>
           </div>
         </div>
-        <div class="skill">
+        <div class="skill reveal reveal-delay-4">
           <div class="skill-title">
             <i class="fa-solid fa-database"></i>
             <h3>Databases</h3>
           </div>
           <div class="skill-content">
-            <span>MySQL</span>
-            <span>PostgreSQL</span>
-            <span>SQL Server</span>
+            <span>MySQL</span><span>PostgreSQL</span><span>SQL Server</span>
           </div>
         </div>
-        <div class="skill">
+        <div class="skill reveal reveal-delay-5">
           <div class="skill-title">
             <i class="fa-solid fa-screwdriver-wrench"></i>
             <h3>Devops</h3>
           </div>
           <div class="skill-content">
-            <span>Docker</span>
-            <span>Github</span>
+            <span>Docker</span><span>Github</span>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="projects">
-        <div class="section-header">
-          <h2>My Projects</h2>
-        </div>
-        <div class="projects-container">
-          <div class="project">
-            <img
-              src="./assest/image/1c8e5b9a-7c3d-4f0b-9c8e-1a2b3c4d5e6f.jpeg"
-              alt="Project 1"
-            />
-            <h3>Project Title 1</h3>
-            <p>Brief description of the project.</p>
+    <section class="projects" id="projects">
+      <div class="section-header reveal"><h2>My Projects</h2></div>
+      <div class="projects-container">
+        <div class="project-card reveal reveal-delay-1">
+          <div
+            class="project-img-placeholder"
+            style="background: linear-gradient(135deg, #ee2448, #ff6b6b)"
+          >
+            <i class="fa-solid fa-cart-shopping"></i>
           </div>
-          <div class="project">
-            <img
-              src="./assest/image/2d9f6a7b-8c4e-4f1a-9d7e-2b3c4d5e6f7g.jpeg"
-              alt="Project 2"
-            />
-            <h3>Project Title 2</h3>
-            <p>Brief description of the project.</p>
+          <div class="project-body">
+            <h3>Bus Tracking System</h3>
+            <p>
+              A real-time bus tracking system with GPS integration, route
+              optimization, and user-friendly mobile app for commuters.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">MySQL</span>
+              <span class="tech-tag">Socket.io</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/BaoKhang2805/CNPM" class="btn-github"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
           </div>
-          <!-- Add more projects as needed -->
         </div>
+
+        <div class="project-card reveal reveal-delay-2">
+          <div
+            class="project-img-placeholder"
+            style="background: linear-gradient(135deg, #1b0e0e, #3d1a1a)"
+          >
+            <i class="fa-solid fa-list-check"></i>
+          </div>
+          <div class="project-body">
+            <h3>eCommerce Platform</h3>
+            <p>
+              A full-stack online shopping platform with product management,
+              user authentication, cart system, and payment integration.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">TypeScript</span>
+              <span class="tech-tag">PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/vinh047/eCommerce-Mobile/"
+                class="btn-github"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal reveal-delay-3">
+          <div
+            class="project-img-placeholder"
+            style="background: linear-gradient(135deg, #c0392b, #922b21)"
+          >
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="project-body">
+            <h3>App shoes Management</h3>
+            <p>
+              A desktop application for managing shoe inventory, sales, and
+              customer data with Java Swing and MySQL Server.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-tag">Java Swing</span>
+              <span class="tech-tag">MySQL Server</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/cuong75201/App_shoes_Managerment"
+                class="btn-github"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal reveal-delay-4">
+          <div
+            class="project-img-placeholder"
+            style="background: linear-gradient(135deg, #c0392b, #922b21)"
+          >
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="project-body">
+            <h3>Smart Docs AI</h3>
+            <p>
+              Currently under development, Smart Docs AI is an intelligent document management system that leverages AI to automate organization, search, and retrieval of documents for enhanced productivity.
+            </p>
+            <div class="tech-stack">
+              <span class="tech-tag">Python</span>
+            </div>
+            <div class="project-links">
+              <a
+                href="https://github.com/LiemNQ/GENARATIVE-AI"
+                class="btn-github"
+                ><i class="fa-brands fa-github"></i> GitHub</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="section-header reveal">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="contact-wrapper">
+        <!-- Left: info + map -->
+        <div class="contact-info reveal reveal-delay-1">
+          <div>
+            <h3>Let's work together</h3>
+            <p>
+              I'm currently open to internship and junior developer
+              opportunities. Feel free to reach out — I'd love to connect!
+            </p>
+          </div>
+
+          <div class="contact-details">
+            <div class="contact-item reveal reveal-delay-2">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="contact-item-text">
+                <span>Email</span>
+                <p>cuong75201@gmail.com</p>
+              </div>
+            </div>
+            <div class="contact-item reveal reveal-delay-3">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div class="contact-item-text">
+                <span>Phone</span>
+                <p>0363 589 035</p>
+              </div>
+            </div>
+            <div class="contact-item reveal reveal-delay-4">
+              <div class="contact-item-icon">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div class="contact-item-text">
+                <span>Address</span>
+                <p>Ho Chi Minh City, Vietnam</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-map reveal reveal-delay-5">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.4446663!2d106.6980!3d10.7626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f7b0a7bdabb%3A0x37e8e15ff85f3dc!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBTw6BpIEfDsm4!5e0!3m2!1svi!2svn!4v1700000000000"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+
+        <!-- Right: form -->
+        <div class="contact-form reveal reveal-delay-2">
+          <h3>Send me a message</h3>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" placeholder="John Doe" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" placeholder="john@example.com" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input
+              type="text"
+              id="subject"
+              placeholder="Job opportunity / Collaboration..."
+            />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              placeholder="Hi Cường, I'd like to..."
+            ></textarea>
+          </div>
+          <button class="btn-submit" onclick="handleSubmit(this)">
+            <i class="fa-solid fa-paper-plane"></i> Send Message
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        © 2025 Trần Hồ Hoàng Cường · Made with <span>♥</span> in Ho Chi Minh
+        City
+      </p>
+    </footer>
+
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
-    <script>
-      var typed = new Typed(".auto-type", {
-        strings: ["Web Developer", "Java Developer"],
-        typeSpeed: 80,
-        loop: true,
-        showCursor: false,
-      });
-    </script>
+    <script src="scripts.js"></script>
   </body>
 </html>
